@@ -3,23 +3,21 @@
 
 Authors: Gabriele Decortes, Fabio Marchi, Emanuele Nicolò Pizzo
 
-## Project Summary
+## Riassunto
+Design e ottimizzazione FEA di lama da corsa J-shaped per sprint paralimpico. 
+Simulazione Abaqus/CAE con Classical Lamination Theory.
 
-Design and FEA optimization of a J-shaped running blade for Paralympic sprinting (100m/200m). 
-Modeled in SolidWorks, simulated in Abaqus/CAE using Classical Lamination Theory.
+**Risultati principali:**
+- Carico 2000N (Tsai-Hill OK)
+- Deflessione max 4cm (50 N/mm)
+- **CFRP vincente** (52 ply, 1.75kg)
 
-**Key achievements:**
-- Tsai-Hill structural check (2000N load)
-- Target stiffness: 50 N/mm (4cm max deflection)
-- **CFRP selected** (52 plies, 1.3cm thick, 1.75kg)
+## Confronto materiali
+| Materiale | Ply | Peso   |
+|-----------|-----|--------|
+| CFRP      | 52  | 1.75kg |
+| GFRP      | 84  | 3.5kg  |
+| AA7075    | -   | 2.8kg  |
 
-## Results Comparison
-
-| Material | Plies | Weight | Notes |
-|----------|-------|--------|-------|
-| CFRP     | 52    | 1.75kg | ✅ Optimal |
-| GFRP     | 84    | 3.5kg  | ❌ Heavy |
-| AA7075   | -     | 2.8kg  | ❌ Corrosion risk |
-
-## Files
-- [Project Report](./CMSA_project__running_blades-1.pdf)
+## File progetto
+**📄 CMSA_project__running_blades-1.pdf** ← Clicca qui sotto per aprire
